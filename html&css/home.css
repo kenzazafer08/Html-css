@@ -1,0 +1,185 @@
+* {box-sizing: border-box;}
+body{
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    overflow: auto;
+    margin: 0;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: rgb(116, 38, 102);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#header{
+    background-color: rgb(211, 215, 218);
+    width: auto;
+    background-size: cover;
+    padding: 2px 20px;
+    height: 80px;
+    opacity: 0.6;
+    position: fixed;
+    width: 100%;
+}
+#header .point{
+    color: rgb(0, 0, 0);
+}
+#header h1{
+    float: left;
+    margin-top: 12px;
+}
+nav{
+    float: right;
+}
+#header nav ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+#header nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+#header nav ul li a:hover {
+    text-decoration: overline;
+    color: rgb(234, 78, 195);
+}
+#home{
+    background-image: url("OIP.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 2px 20px;
+    text-align: center;
+}
+#home h2{
+    font-size: 100px;
+    color: rgb(234, 78, 195);
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:2px 2px rgb(252, 220, 241);
+}
+.button{
+    display: block;
+    text-align: center;
+    background: #444;
+    border-radius: 3px;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.button:hover{
+    background: #fff;
+    color:#444 ;
+}
+#About{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+}
+#About .type{
+    width: 380px;
+    height: 270px;
+    background-color: #f5f5f5;
+    margin-left: 30px;
+}
+#About .text{
+    width: 240px;
+    height: 270px;
+    float: left;
+    background-color: #f5f5f5 ;
+    padding: 5px;
+    text-align: justify;
+    opacity: 0.8;
+}
+.button2{
+    display: block;
+    text-align: center;
+    background: rgb(234, 78, 195);
+    border-radius: 3px;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.button2:hover{
+    background: #fff;
+    color: rgb(234, 78, 195);
+}
+#About .text h3{
+    font-size: 20px;
+    color: #444;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-bottom: Dashed rgb(234, 78, 195);
+}
+footer{
+    background-color: rgb(211, 215, 218);
+    width: auto;
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+    opacity: 0.6;
+    margin-top: 0;
+}
+#inscription{
+    background-color: #ffdef2;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.075);
+    text-align: center;
+    margin-top: 30px;
+}
+#inscription .headf{
+    text-align: center;
+    background-color: rgb(246, 163, 231);
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+.item{
+	border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+    border: none;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px 0px plum ;
+    width: 400px;
+}
+.button3{
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(246, 163, 231);
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.button3:hover{
+    background: #fff;
+    color: rgb(246, 163, 231);
+}
